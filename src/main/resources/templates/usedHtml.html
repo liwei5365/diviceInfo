@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function refresh() {
+        window.location.reload();
+    }
+    setTimeout("refresh()",1000);
+</script>
+<body>
+    <table>
+        <tr>
+            <th>cpuUsed :</th>
+            <th>[[${returnUsed.cpuUsed}]]</th>
+        </tr>
+        <tr>
+            <th>memUsed :</th>
+            <th>[[${returnUsed.memUsed}]]</th>
+        </tr>
+        <tr>
+            <th> HDUsed :</th>
+            <th>[[${returnUsed.HDUsed}]]</th>
+        </tr>
+        <tr>
+        <tr>
+            <th colspan="2">-----------jvm--------------</th>
+        </tr>
+        <tr>
+            <th> FreeMomery :</th>
+            <th>[[${returnUsed.FreeMomery}]]</th>
+        </tr>
+        <tr>
+            <th>MaxMomery :</th>
+            <th>[[${returnUsed.MaxMomery}]]</th>
+        </tr>
+        <tr>
+            <th>TotalMomery :</th>
+            <th>[[${returnUsed.TotalMomery}]]</th>
+        </tr>
+        <tr>
+            <th>AvailableProcessors :</th>
+            <th>[[${returnUsed.AvailableProcessors}]]</th>
+        </tr>
+
+
+
+
+
+
+
+    </table>
+</body>
+</html>
